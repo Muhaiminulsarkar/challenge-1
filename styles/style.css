@@ -184,3 +184,61 @@ main {
     margin: 48px 0px;
     padding: 32px;
 }
+
+/* current target style */
+.items {
+    display: flex;
+    gap: 25px
+}
+
+.item {
+    max-width: 365px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.item2 {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.item3 {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.item img {
+    margin: 24px 0px;
+}
+
+.item-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+    margin: 8px 0px;
+
+}
+
+.item-des {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    opacity: 0.7;
+    margin: 8px 0px;
+
+}
+
+.item-btn {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    margin: 34px 0px;
+    text-decoration-line: underline;
+}
